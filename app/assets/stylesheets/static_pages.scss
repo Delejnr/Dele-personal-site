@@ -1,0 +1,27 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #38373d;
+    border-image: none;
+    border-style: none none solid;
+    border-width: 0 0 2px;
+    display: block;
+    height: 0;
+    margin: 4em 0 4em -2em;
+    position: relative;
+    width: 4em;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
+.note{
+  text:truncate;
+}
